@@ -1,1 +1,1 @@
-#  HTML,CSS and javascript,these are my practice languages.
+#  HTML,CSS and javascript, those are my practice languages.
