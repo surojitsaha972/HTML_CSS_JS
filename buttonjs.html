@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d{
+            border: 3px solid black;
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="d"></div><br>
+    <input type="button" value="Click" id="but" onclick="change()">
+    <script>
+        ch=1;
+        let div= document.getElementById("d");
+        let but= document.getElementById("but");
+        function change()
+        {
+        if(ch==1)
+        {
+            div.style.display="none";
+            ch=0;
+            but.value="show";
+        }
+        else
+        {
+            div.style.display="block";
+            ch=1;
+            but.value="click";
+
+        }
+        }
+    </script>
+</body>
+</html>

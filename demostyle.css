@@ -1,0 +1,208 @@
+.main{
+    width: 50px;
+    /* margin: auto; */
+}
+.img{
+    position: relative;
+    top: 8px;
+    left: 30px;
+}
+.text{
+    position: absolute;
+    color: rgb(4, 4, 108);
+    left: 130px;
+    top: 15px;
+}
+.mrimg{
+    position: absolute;
+    right: 150px;
+    top: 9px;
+    text-align: right;
+}
+.main2{
+    border-style: solid;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    width: 87%;
+    height: 30px;
+    border-radius: 8px;
+    background-image: linear-gradient(white 5%,rgba(24, 3, 179, 0.875) 90%);
+    border-color: rgb(3, 31, 92);
+    border-width: 2px;
+    color: white;
+}
+.Home{
+    position: absolute;
+    top: 5.5px;            
+}
+.about{
+    position: absolute;
+    left: 45px;
+    top: 1.5px;
+    width: 800px;
+    z-index: 1;
+}
+.abhov{
+    position: absolute;
+    left: 0px;
+    color: black;
+    background-color: white;
+    width: 200px;
+    z-index: 2;
+    display: block;
+}
+.about:hover .abhov{
+    display: block;
+}
+.dept{
+    position: absolute;
+    left: 115px;
+    top: 2px;
+}
+.crs{
+    position: absolute;
+    left: 200px;
+    top: 2px;
+}
+.fac{
+    position: absolute;
+    left: 270px;
+    top: 2px;
+}
+.rd{
+    position: absolute;
+    left: 330px;
+    top: 2px;
+}
+.mou{
+    position: absolute;
+    left: 380px;
+    top: 2px;
+}
+.iqac{
+    position: absolute;
+    left: 430px;
+    top: 2px;
+}
+.plcmnt{
+    position: absolute;
+    left: 490px;
+    top: 2px;
+}
+.app{
+    position: absolute;
+    left: 590px;
+    top: 2px;
+}
+.achive{
+    position: absolute;
+    left: 680px;
+    top: 2px;
+}
+.admin{
+    position: absolute;
+    left: 800px;
+    top: 2px;
+}
+.nirf{
+    position: absolute;
+    left: 900px;
+    top: 2px;
+}
+.notic{
+    position: absolute;
+    left: 980px;
+    top: 2px;
+}
+.feedback{
+    position: absolute;
+    left: 1050px;
+    top: 2px;
+}
+.content{
+    position: absolute;
+    left: 1130px;
+    top: 2px;
+}
+.prg{
+    position: absolute;
+    top: 340px;
+    left: 45px;
+    width: 120px;
+    height: 10px;
+
+    }
+#ecr{
+    position: absolute;
+    top: 20px;
+    color: rgb(5, 5, 175);
+    size: 10%;
+}
+.hr{
+    position: absolute;
+    top: 350px;
+    left: 160px;
+}
+.marque{
+    position: absolute;
+    width: 700px;
+    top: 363px;
+    left: 165px;
+    color: white;
+}
+#std{
+    position: absolute;
+    top: 348px;
+    right: 300px;
+    color: white;
+}
+.bor1{
+    position: absolute;
+    border-style: solid;
+    top: 400px;
+    width: 280px;
+    left: 40px;
+    height: 100%;
+    border-width: 0px;
+    background-color: rgb(236, 231, 231);
+    font-size: 14px;
+}
+#ses{
+    position: absolute;
+    top: 345px;
+    left: 50px;
+    font-size: 18px;
+}
+#year{
+    position: absolute;
+    color: white;
+    text-size-adjust: 100px;
+    top: 340px;
+    left: 145px;
+    font-size: 20px;
+}
+#line{
+    position: absolute;
+    color: white;
+    top: 367PX;
+    left: 90px;
+    font-size: 19px;
+}
+.line2{
+    position: absolute;
+    color: white;
+    top: 390px;
+    left: 70px;
+    font-size: 23px;
+}
+#img2{
+    position: absolute;
+    top: 435px;
+    left: 1px;
+}
+.add{
+    position: absolute;
+    top: 580px;
+    
+}

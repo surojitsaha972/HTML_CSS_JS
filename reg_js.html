@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Name : <input type="text" name="" id="name" placeholder="Enter your name" required><br><br>
+    MobNo.: <input type="text" name="" id="phno" placeholder="Enter mobile no." required><br>
+    <div id="ph"></div><br>
+    Password : <input type="password" name="" id="psw" placeholder="Enter your password" required><br><br>
+    Re_Password: <input type="password" name="" id="rpsw" required placeholder="Re_Enter your password"><br>
+    <div id="pass"></div><br>
+    Gender : <input type="radio" name="gen" id="male"> Male
+    <input type="radio" name="gen" id="female"> Female<br><br>
+    Course : <input type="checkbox" name="crs" id="bca">BCA
+    <input type="checkbox" name="crs" id="bhm">BHM <br><br>
+    <input type="button" id="but" value="Registration" onclick="reg()">
+    
+    <script>
+        function reg()
+        {
+           let but=document.getElementById("but");
+           let name=document.getElementById("name");
+           let mobNo=document.getElementById("phno");
+           let psw=document.getElementById("psw");
+           let repsw=document.getElementById("rpsw");
+           let gen=document.getElementById("gen");
+           let crs=document.getElementById("course");
+           if(isNaN(mobNo.value)==false){
+               if(mobNo.value.length!=10){
+                    document.getElementById("ph").innerText="Mobile no. should be 10 digits.";
+                    document.getElementById("ph").focus();
+                    return false;
+
+                }
+                else{
+                    document.getElementById("ph").innerText="";
+                }
+            }
+            else{
+               document.getElementById("ph").innerText="Mobile no. should be numeric.";
+
+           }
+           if(psw.value!=repsw.value){
+            document.getElementById("pass").innerText="Password should be matched.";
+            return false;
+            }
+            else{
+            
+                document.getElementById("pass").innerText="";
+                // return true;
+            }
+           
+            let male = document.getElementById("male");
+            let female = document.getElementById("female");
+            // alert(male.checked);
+
+            if(male.checked==false && female.checked==false){
+                alert("Select the gender");
+            }
+
+            let bca=document.getElementById("bca");
+            let bhm=document.getElementById("bhm");
+            if(bca.checked==false && bhm.checked==false){
+                alert("Select the course.");
+            }
+
+        }
+    </script>
+</body>
+</html>

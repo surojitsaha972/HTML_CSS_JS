@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Text: <input type="text" name="" id="txt" onkeyup="return limit();" maxlength="10">
+    <p id = "p">10</p>
+    
+    <script>
+        function limit()
+        {
+            // alert("Text limit reached");
+            let txt=document.getElementById("txt").value;
+            let p = document.getElementById("p");
+            // p.innerText = txt;
+            
+            if (txt.length==10)
+            {
+                alert("Text limit reached");
+            }
+            else
+            {
+                p.innerText = parseInt(10 - txt.length);
+            }
+        }
+    </script>
+</body>
+</html>

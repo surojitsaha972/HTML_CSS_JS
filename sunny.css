@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    background-color: rgb(251, 193, 122);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.barlogo{
+    position: relative;
+    align-self: center;
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    
+}
+
+.logo{
+    /* position: fixed; */
+    background-image: url("bars-solid.svg");
+    height: 30px;
+    width: 30px;
+    margin-left:3px ;
+    background-size: cover;
+}
+
+.barlogo:hover{
+    border:2px solid black
+}
+
+.searchbar{
+    display: flex;
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 420px;
+}
+
+.search{
+    height: 30px;
+    width: 400px;
+    border: 1.5px black solid;
+    font-size:large;
+}
+
+.searchlogo{
+    background-image: url("search.svg");
+    height: 25px;
+    width: 25px;
+    margin-left: 2px;
+    /* align-content: center; */
+}
+
+.user{
+    display: flex;
+    margin-left: 270px;
+}
+
+.userlogo{
+    background-image: url("user-solid.svg");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    /* margin-left: 250px; */
+    margin-top: 15px;
+    /* align-content: center; */
+}
+
+.loginpara{
+    margin-left: 5px;
+    font-size: larger;
+}
+
+.user:hover{
+    border:2px solid black
+}
+
+.content{
+    height: 1000px;
+    width: 100%;
+    background-image: linear-gradient(rgb(244, 163, 70) 10%,rgba(247, 20, 20, 0.875) 90%);
+}
+
+/* .bio{
+    background-color: rgb(242, 209, 167);
+    height: 500px;
+    width: 900px;
+}  */
